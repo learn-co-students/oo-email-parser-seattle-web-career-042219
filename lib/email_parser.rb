@@ -11,10 +11,5 @@ class EmailParser
 
   def parse
     @email.tr(',', '').split.uniq
-
   end
-
-
-
-
 end
